@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:orderInCategory="0"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_seasonal"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_season"
+        android:title="Seasonal" />
+    <item
+        android:id="@+id/nav_bookings"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_booking"
+        android:title="Bookings" />
+    <item
+        android:id="@+id/nav_profile"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_person"
+        android:title="Profile" />
+</menu>

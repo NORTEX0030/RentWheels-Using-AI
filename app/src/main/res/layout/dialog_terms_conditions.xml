@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_conditions11"
+            android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+            android:textColor="#4A00E0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="By using Rentwheels, you agree to the following terms and conditions for vehicle bookings:\n\n1. **Eligibility**: You must be at least 18 years old and hold a valid driving license to book a vehicle.\n\n2. **Booking Confirmation**: A booking is confirmed only after successful payment of the total amount, including GST.\n\n3. **Vehicle Condition**: You are responsible for returning the vehicle in the same condition as received, barring normal wear and tear.\n\n4. **Rental Period**: The rental period starts and ends as per the dates and timings specified during booking. Late returns may incur additional charges.\n\n5. **Payment**: All payments must be made through the app using the provided payment gateway. No cash payments are accepted.\n\n6. **Cancellation**: Cancellations made 24 hours before the rental start time are eligible for a full refund. No refunds for late cancellations.\n\n7. **Fuel Policy**: Vehicles are provided with a full tank of fuel. You must return the vehicle with a full tank, or fuel charges will apply.\n\n8. **Insurance**: Vehicles are insured, but you are liable for any damages caused due to negligence or misuse.\n\n9. **Prohibited Use**: Vehicles must not be used for illegal activities, racing, or carrying hazardous materials.\n\n10. **Liability**: Rentwheels is not liable for any accidents, injuries, or damages during the rental period. Drive responsibly.\n\nFor any queries, contact support@rentwheels.com."
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#4A00E0"
+            android:text="Close"
+            android:textColor="@android:color/white"
+            style="@style/Widget.Material3.Button" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

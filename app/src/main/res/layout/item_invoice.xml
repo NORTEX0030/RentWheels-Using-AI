@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Vehicle Name -->
+        <TextView
+            android:id="@+id/vehicleNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Name"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:textColor="#212121" />
+
+        <!-- Rental Dates -->
+        <TextView
+            android:id="@+id/rentalDatesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="From: N/A - To: N/A"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="#757575" />
+
+        <!-- Total Amount -->
+        <TextView
+            android:id="@+id/totalAmountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Total: ₹0"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="#4A00E0" />
+
+        <!-- Download Button -->
+        <Button
+            android:id="@+id/downloadInvoiceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#26C6DA"
+            android:text="Download Invoice"
+            android:textColor="@android:color/white"
+            style="@style/Widget.Material3.Button" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

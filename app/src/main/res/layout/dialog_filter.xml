@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter Vehicles"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:textColor="#212121" />
+
+    <!-- Vehicle Type (Spinner) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Vehicle Type"
+        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+        android:textColor="#757575" />
+
+    <Spinner
+        android:id="@+id/filterModelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background" />
+
+    <!-- Fuel Type -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fuel Type"
+        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+        android:textColor="#757575" />
+
+    <Spinner
+        android:id="@+id/filterFuelTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background" />
+
+    <!-- Availability -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Availability"
+        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+        android:textColor="#757575" />
+
+    <Spinner
+        android:id="@+id/filterAvailabilitySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background" />
+
+    <!-- Persons -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Persons"
+        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+        android:textColor="#757575" />
+
+    <Spinner
+        android:id="@+id/filterPersonsSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background" />
+
+    <TextView
+        android:id="@+id/personsNoteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Note: Maximum persons can be 5"
+        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+        android:textColor="#757575"
+        android:visibility="gone" />
+
+    <!-- Range -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Range (Kilometers)"
+        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+        android:textColor="#757575" />
+
+    <Spinner
+        android:id="@+id/filterRangeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background" />
+
+    <!-- Apply and Cancel Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="#757575"
+            style="@style/Widget.Material3.Button.TextButton" />
+
+        <Button
+            android:id="@+id/applyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Apply"
+            android:backgroundTint="#4A00E0"
+            style="@style/Widget.Material3.Button" />
+    </LinearLayout>
+</LinearLayout>
